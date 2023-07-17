@@ -21,7 +21,7 @@ const client = new textToSpeech.TextToSpeechClient({
 });
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "key",
 });
 
 const openai = new OpenAIApi(configuration);
